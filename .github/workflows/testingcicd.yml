@@ -1,8 +1,8 @@
-name: testingcicd
+name: testingcicd_workflow
 on: workflow_dispatch
 jobs:
   firstjob:
     run-on: windows-latest
     steps:
-      -name: Print Greetings
-      -run: echo "Tested" 
+      - name: Print Greetings
+        run : echo "Tested" 
