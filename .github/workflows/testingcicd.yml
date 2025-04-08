@@ -2,7 +2,7 @@ name: testingcicd
 on: workflow_dispatch
 jobs:
   firstjob:
-    run-on: ubuntu-latest
+    run-on: windows-latest
     steps:
       - name: Print Greetings
         run : echo "HELLO WORLD"
