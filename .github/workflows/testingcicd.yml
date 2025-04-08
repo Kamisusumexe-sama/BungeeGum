@@ -5,4 +5,4 @@ jobs:
     run-on: windows-latest
     steps:
       -name: Print Greetings
-       run: echo "Tested" 
+      -run: echo "Tested" 
