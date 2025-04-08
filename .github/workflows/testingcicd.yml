@@ -1,4 +1,4 @@
-name: testingcicd_workflow
+name: testingcicd
 on: workflow_dispatch
 jobs:
   firstjob:
